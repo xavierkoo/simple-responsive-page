@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>nodeflair</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      #days {
+        font-style: italic;
+        color: #1fc76a;
+      }
+
+      #role {
+        background-color: #ddf7e9;
+        color: #1fc76a;
+        margin: 0.2em;
+        padding: 0.4em;
+        border-radius: 0.2em;
+      }
+
+      .album {
+        background-color: #f2f2f2;
+      }
+
+      .card {
+        border-radius: 0.8em;
+      }
+
+      .card-img-top {
+        width: 40%;
+        height: 10vw;
+        margin: auto;
+        padding: 0.8em;
+      }
+
+      .card:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 0px 2px rgba(0,0,0,.25), 0 3px 12px rgba(0,0,0,0.1);
+      }
+
+      .dot{
+        display: inline-block;
+        position: relative;
+      }
+
+      .skill {
+        display: inline-block;
+        position: relative;
+        margin: 0.2em;
+        padding: 0.4em;
+        border-radius: 0.2em;
+        background-color: lightgray;
+      }
+      
+    </style>
+    
+  </head>
+  <body>
+
+  <div class="album py-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/ensign.png"/>
+            <div class="card-body">
+              <p class="card-text">Ensign InfoSecurity</p>
+              <h5 class="card-text">Security Operations Lead</h5>
+              <p class="card-text"></p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">Cybersec Ops</small>
+            </div>
+                <div class="card-footer">
+                  <p class="skill">ETL</p>
+                  <p class="skill">Analytics</p>
+                  <p class="skill">Powershell</p>
+                  <p class="skill">Splunk</p>
+                  <p class="skill">Linux</p>
+                  <p class="skill">...</p>
+                </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/keysight.png"/>
+            <div class="card-body">
+              <p class="card-text">Keysight Technologies</p>
+              <h5 class="card-text">Data Scientist</h5>
+              <p class="card-text">4,365 - 7,275 / Monthly  EST</p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">Data Sci</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">Analytics</p>
+              <p class="skill">HBase</p>
+              <p class="skill">Hive</p>
+              <p class="skill">JSON</p>
+              <p class="skill">Python</p>
+              <p class="skill">Java</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/disney.jpg"/>
+            <div class="card-body">
+              <p class="card-text">Disney+ Hotstar</p>
+              <h5 class="card-text">Senior Product Manager - International Expansion</h5>
+              <p class="card-text"></p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">PM</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">Strategy</p>
+              <p class="skill">Go</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/microsoft.png"/>
+            <div class="card-body">
+              <p class="card-text">Microsoft</p>
+              <h5 class="card-text">Cloud Solutions Architect - Azure Infrastructure (Global...</h5>
+              <p class="card-text">10,327 - 18,769 / Monthly EST</p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">SysOps</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">Docker</p>
+              <p class="skill">TFS</p>
+              <p class="skill">API</p>
+              <p class="skill">Cloud Foundry</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/viki.jpg"/>
+            <div class="card-body">
+              <p class="card-text">Rakuten Viki</p>
+              <h5 class="card-text">Senior Engineer, Backend</h5>
+              <p class="card-text">6,000 - 10,000 / Monthly EST</p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">Backend</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">UNIX</p>
+              <p class="skill">RabbitMQ</p>
+              <p class="skill">Node.js</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/binance.png"/>
+            <div class="card-body">
+              <p class="card-text">Binance</p>
+              <h5 class="card-text">Senior QA Engineer - Card</h5>
+              <p class="card-text"></p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">QA</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">Ruby</p>
+              <p class="skill">SQL</p>
+              <p class="skill">Python</p>
+              <p class="skill">Java</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/nus.png"/>
+            <div class="card-body">
+              <p class="card-text">National University of Singapore</p>
+              <h5 class="card-text">Front-End Developer with UI/UX (FD-UI/UX) for AI...</h5>
+              <p class="card-text"></p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">Frontend</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">Rest API</p>
+              <p class="skill">Adobe XD</p>
+              <p class="skill">Figma</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/gxs.jpg"/>
+            <div class="card-body">
+              <p class="card-text">GXS Bank</p>
+              <h5 class="card-text">Digibank Singapore - Senior DevOps Engineer</h5>
+              <p class="card-text"></p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">DevOps</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">Datalake</p>
+              <p class="skill">Strategy</p>
+              <p class="skill">Analytics</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/bw.jpg"/>
+            <div class="card-body">
+              <p class="card-text">BorgWarner Inc.</p>
+              <h5 class="card-text">Engineer/Senior Engineer, Software Engineering</h5>
+              <p class="card-text"></p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">Fullstack</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">Modular</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/sas.jpg"/>
+            <div class="card-body">
+              <p class="card-text">SAS</p>
+              <h5 class="card-text">Junior Data Scientist - Innovation Centre (2-year...</h5>
+              <p class="card-text"></p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">Data Sci</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">Analytics</p>
+              <p class="skill">R</p>
+              <p class="skill">Sas</p>
+              <p class="skill">Segment</p>
+              <p class="skill">C++</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/pwc.png"/>
+            <div class="card-body">
+              <p class="card-text">SAS</p>
+              <h5 class="card-text">Junior Data Scientist - Innovation Centre (2-year...</h5>
+              <p class="card-text"></p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">Data Sci</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">TensorFlow</p>
+              <p class="skill">Alteryx</p>
+              <p class="skill">QlikView</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="img/visa.png"/>
+            <div class="card-body">
+              <p class="card-text">Visa</p>
+              <h5 class="card-text">Sr. Data Scientist, Visa Consulting & Analytics (VCA)</h5>
+              <p class="card-text"></p>
+              <small id="days" class="float-start">3 days ago</small>
+              <small id="role" class="float-end">Data Sci</small>
+            </div>
+            <div class="card-footer">
+              <p class="skill">play</p>
+              <p class="skill">MicroStrategy</p>
+              <p class="skill">Analytics</p>
+              <p class="skill">R</p>
+              <p class="dot">...</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
